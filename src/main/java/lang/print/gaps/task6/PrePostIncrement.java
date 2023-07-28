@@ -9,9 +9,15 @@ public class PrePostIncrement {
 
         // use post-increment operator in the mathematical expression  
         int x =   a   + b +   c   + d;
+        x = (a++) + (b++) + (c++) + (d++);
+        x = ++x;
         System.out.println("Expected x is 40, x = " + x);
         // print the updated value of a, b, c, and d  
         System.out.println("The updated value of a = " + a + ", b = " + b + ", c = " + c + " and d = " + d);
+
+        //You will be given a code snippet, and you task will be to get expected result by inserting correct pre/post increment oprators to specified variables.
+        //Implement the task in the following code snippet:
+        //Expected results: x is expected to be 40, the rest but b and d to be incremented.
 
     }
 }
