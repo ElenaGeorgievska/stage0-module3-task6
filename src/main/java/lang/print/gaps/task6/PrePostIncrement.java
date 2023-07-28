@@ -9,7 +9,7 @@ public class PrePostIncrement {
 
         // use post-increment operator in the mathematical expression  
         int x =   a   + b +   c   + d;
-        x = (a++) + (b++) + (c++) + (d++);
+        x = (a++) + b + (c++) + d;
         x = ++x;
         System.out.println("Expected x is 40, x = " + x);
         // print the updated value of a, b, c, and d  
